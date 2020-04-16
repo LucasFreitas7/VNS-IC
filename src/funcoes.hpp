@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <time.h> 
 #include <math.h>
+#include "BiskupFeldmann.hpp"
 int* criarVetor(int n);
-void trocaVizinho(int *vet, int vetSize);
+void vizinhoQualquer(int *vet, int n);
+void buscaLocal(int *vet, int& solucao, int n);
 #endif

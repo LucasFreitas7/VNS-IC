@@ -1,6 +1,6 @@
 #include"BiskupFeldmann.hpp"
 int objetive_function(int * vet){
-    ifstream arquivo("../Instancias/sch10-1.txt");
+    ifstream arquivo("../Instancias/sch50-1.txt");
     int n;
     arquivo >> n;
     int * p = new int[n];
