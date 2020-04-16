@@ -22,7 +22,7 @@ void buscaLocal(int *vet, int& solucao, int n) //first improvement
     solucao = objetive_function(vet);
     int aux = 0;
     int aux1 = 0;
-    for(int i = 1; i < n; i++){
+    for(int i = 1; i < n; i++){//talvez tenha q melhorar aq
         aux = vet[0];
         vet[0] = vet[i];
         vet[i] = aux;
@@ -31,6 +31,7 @@ void buscaLocal(int *vet, int& solucao, int n) //first improvement
             solucao = aux1;
             break;
         }
+        
     }
 	
 }
